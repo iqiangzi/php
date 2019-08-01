@@ -1,0 +1,18 @@
+安装说明：
+此源码的PHP版本为5.2或5.3。
+
+推荐空间商  www.360wzgj.net
+
+1、将kaoshi.sql用phpmyadmin导入数据库
+2、在lib/config.inc.php文件中设置数据库参数，注意都要保存为utf8无bom形式! 
+3、设置data目录、files/attach目录为可读写（777权限）
+4、以上3步完成后即可完成安装。
+
+前台地址：
+域名/index.php
+user 123456
+后台地址：
+域名/index.php?core-master
+默认管理员：
+用户名：peadmin
+密码：123456
